@@ -201,3 +201,207 @@ input[type=text] {
   }
 	
 }
+
+body{
+	width: 100%;
+	margin:0;
+	padding: 0;
+	background-color:white;
+	}
+p{
+	text-align: left;
+	line-height: 1.5;
+}
+.main-container{
+	margin: 2% 5%;
+}
+
+
+
+
+/*Navbar*/
+
+.navbar {
+  	position: relative;
+  	overflow: hidden;
+  	background-color:white;
+}
+.navbar a {
+  	float: left;
+  	color: #AD7DB7; /* purple*/
+  	text-align: center;
+  	padding: 16px 16px;
+  	text-decoration: none;
+  	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Pacifico', cursive;
+}
+.navbar a:hover {
+  	color: black;
+}
+.navbar-right {
+  float: right;
+	padding: 30px 16px;
+}
+
+
+
+
+
+/* Search box*/
+
+input[type=text] {
+	width: 150px;
+	border-radius: 4px;
+  	box-sizing: border-box;
+	border: 2px solid #ccc;
+  	font-size: 14px;
+  	background-color: white;
+  	padding: 7px;
+}
+
+
+
+/*logo*/
+
+.logo {
+	display: inline-block;
+	width: 250px;
+	margin-right: 0;
+}
+
+
+
+
+/*cart icon*/
+
+.cart {
+	width: 30px;
+}
+
+
+
+
+.title-cupcake {
+	color: black;
+	font-size: 35px;
+}
+
+.flexbox {
+  	display: flex;
+  	flex-wrap: nowrap;
+	border: 1px lightgray;
+}
+
+.flexbox > div {
+  	
+	width: 40%;
+  	margin: 0% 5%;
+	padding: 2%;
+ 
+}
+.maincupcake {
+	width: 80%;
+	padding: 7%;
+	align-content: center;
+}
+
+.aliceblue {
+		background-color: aliceblue;
+	border-radius: 40px;
+}
+
+.related-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+	border: 1px sloid gray;
+/*  background-color: aliceblue;*/
+}
+
+.related-flexbox > div {
+/*  background-color: #f1f1f1;*/
+  width: 10%;
+  margin: 0% 2%;
+  line-height: 75px;
+  font-size: 30px;
+}
+.related-flexbox > div >img {
+	width: 100%;
+	border-radius: 30%;
+}
+
+.mini-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.mini-flexbox > div {
+	width: 50%;
+	
+}
+
+
+
+.add-button {
+	width: 100%;
+  border: none;
+  padding: 2% 3%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 2px;
+  cursor: pointer;
+  color: white;
+  border: 2px solid #555555;
+  background-color:#555555;
+  border-radius: 5px;
+	margin-top: 10%;
+  
+}
+
+
+
+.add-button:hover {
+  background-color: white;
+  color:  #555555;
+}
+
+
+.about-mainimage >img {
+	
+	max-width: 100%;
+	
+}
+
+
+/* Responsive navigation menu (for ipad devices) */
+@media screen and (max-width: 768px) {
+  .navbar a, .navbar-right {
+    float: none;
+    display: block;
+  }
+	
+	.flexbox {
+  	display: flex;
+  	flex-wrap: wrap;
+}
+
+.flexbox > div {
+  	
+	width: 100%;
+  	
+ 
+}
+}
+
+
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .navbar a, .navbar-right {
+    float: none;
+    display: block;
+  }
+	
+}
